@@ -28,8 +28,7 @@ This is a beginner-friendly Note Taking Web App built using **HTML, CSS and Java
 
 ## 📂 How to use
 
-1. Clone the repository:
-- git clone https://github.com/ronit1049/EasyNotes.git
+1. Clone the repository: git clone https://github.com/ronit1049/EasyNotes.git
 
 2. Open index.html in your browser.
 
