@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EasyNotes</title>
+</head>
+<body>
+    <!-- The parent container that contains everything -->
+    <div class="note-container">
+        <!-- Note header -->
+        <div class="note-heading">
+            <h1>EasyNotes <span id="dot">.</span></h1>
+        </div>
+        <!-- search the note -->
+        <div class="note-search">
+            <input type="text" placeholder="Search your notes" id="note-search">
+            <button class="search-saved">
+                <img src="./assets/magnifying-glass-solid.svg" alt="" srcset="">
+            </button>
+        </div>
+        <!-- Form for creating note -->
+        <div class="note-form">
+            <form>
+                <!-- Title -->
+                <label for="title">
+                    <input type="text" placeholder="Title" id="title" value="">
+                </label>
+                <!-- Content -->
+                <label for="content">
+                    <textarea placeholder="Write down your idea" id="content"></textarea>
+                </label>
+                <!-- Save Button -->
+                <button type="submit" class="form-save-button">Save Note</button>
+            </form>
+        </div>
+        <!-- Saved notes -->
+         <div class="note-collection">
+         </div>
+
+         <!-- footer part -->
+        <div class="note-footer">
+            <h1>EasyNotes <span id="dot">.</span></h1>
+            <p>&copy;2025 | All rights reserved.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
